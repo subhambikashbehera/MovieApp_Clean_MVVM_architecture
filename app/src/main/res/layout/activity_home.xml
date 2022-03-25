@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:background="@color/background_color_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".presentation.HomeActivity"
+        android:orientation="vertical"
+
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.Toolbar
+
+                android:id="@+id/toolBar"
+                android:background="@color/background_color_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextColor="@color/button_background"
+                app:title="Movie App"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/movie"
+                android:layout_marginHorizontal="30dp"
+                android:backgroundTint="@color/button_background"
+                android:textColor="@color/background_color_screen"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="@string/movie"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/tvShows"
+                android:layout_marginHorizontal="30dp"
+                android:backgroundTint="@color/button_background"
+                android:textColor="@color/background_color_screen"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="@string/tv_shows"
+                android:layout_marginVertical="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/artist"
+                android:layout_marginHorizontal="30dp"
+                android:backgroundTint="@color/button_background"
+                android:textColor="@color/background_color_screen"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="@string/artist"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</layout>

@@ -1,6 +1,6 @@
 package com.subhambnikash.movieappcleanmvvmarchitecture.domian.usecases.movie
 
-import com.subhambnikash.movieappcleanmvvmarchitecture.db.model.movies.Movie
+import com.subhambnikash.movieappcleanmvvmarchitecture.data.model.movies.Movie
 import com.subhambnikash.movieappcleanmvvmarchitecture.domian.repositories.MoviesRepositories
 
 class GetMoviesUseCases(private val moviesRepositories: MoviesRepositories) {

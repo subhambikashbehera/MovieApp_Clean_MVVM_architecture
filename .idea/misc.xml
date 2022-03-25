@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.194" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.194" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/activity_artist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/activity_movie.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/activity_tv_show.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/layout/layout_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/menu/dark_white_mode.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/NHI122/AndroidStudioProjects/MovieAppCleanMVVMarchitecture/app/src/main/res/menu/update.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>

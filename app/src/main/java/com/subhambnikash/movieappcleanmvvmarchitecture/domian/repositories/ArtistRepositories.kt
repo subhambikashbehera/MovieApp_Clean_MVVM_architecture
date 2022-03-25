@@ -1,7 +1,6 @@
 package com.subhambnikash.movieappcleanmvvmarchitecture.domian.repositories
 
-import com.subhambnikash.movieappcleanmvvmarchitecture.db.model.artist.Artist
-import com.subhambnikash.movieappcleanmvvmarchitecture.db.model.movies.Movie
+import com.subhambnikash.movieappcleanmvvmarchitecture.data.model.artist.Artist
 
 interface ArtistRepositories {
     suspend fun getArtists(): List<Artist>?

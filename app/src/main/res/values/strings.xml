@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MovieApp Clean MVVM architecture</string>
+    <string name="tv_shows">Tv Shows</string>
+    <string name="movie">Movie</string>
+    <string name="artist">Artist</string>
+    <string name="movie_checker">Movie Checker</string>
 </resources>
