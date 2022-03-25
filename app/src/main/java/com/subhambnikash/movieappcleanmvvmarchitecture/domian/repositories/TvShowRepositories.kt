@@ -1,6 +1,6 @@
 package com.subhambnikash.movieappcleanmvvmarchitecture.domian.repositories
 
-import com.subhambnikash.movieappcleanmvvmarchitecture.db.model.tvshows.TvShow
+import com.subhambnikash.movieappcleanmvvmarchitecture.data.model.tvshows.TvShow
 
 interface TvShowRepositories {
 
