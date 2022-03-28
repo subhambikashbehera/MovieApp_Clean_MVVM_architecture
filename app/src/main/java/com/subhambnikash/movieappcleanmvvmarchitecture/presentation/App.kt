@@ -10,7 +10,7 @@ import com.subhambnikash.movieappcleanmvvmarchitecture.presentation.di.tvshows.T
 
 class App : Application(), Injector {
 
-    lateinit var appComponent: AppComponent
+    private lateinit var appComponent: AppComponent
 
     override fun onCreate() {
         super.onCreate()

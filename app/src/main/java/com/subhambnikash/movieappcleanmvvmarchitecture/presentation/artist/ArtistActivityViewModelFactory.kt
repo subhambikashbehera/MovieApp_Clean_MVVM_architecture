@@ -8,14 +8,15 @@ import com.subhambnikash.movieappcleanmvvmarchitecture.presentation.movie.MovieA
 import com.subhambnikash.movieappcleanmvvmarchitecture.presentation.tvshow.TvShowActivityViewModel
 import java.lang.IllegalArgumentException
 
+
 class ArtistActivityViewModelFactory(
     private val getArtistUseCases: GetArtistUseCases,
     private val updateArtistUseCases: UpdateArtistUseCases
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return when (modelClass) {
-            ArtistActivityViewModel::class.java -> ArtistActivityViewModel(getArtistUseCases,updateArtistUseCases)
-            else -> throw  IllegalArgumentException("error")
+            ArtistActivityViewModel::class.java ->{ ArtistActivityViewModel(getArtistUseCases,updateArtistUseCases)}
+            else -> {throw  IllegalArgumentException("error")}
         } as T
     }
 }

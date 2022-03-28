@@ -29,19 +29,19 @@ class DataBaseModule {
     @Singleton
     @Provides
     fun provideMovieDao(dataBaseInstance: GetDataBaseInstance):MoviesDao{
-        return dataBaseInstance.moviesDao
+        return dataBaseInstance.moviesDao()
     }
 
     @Singleton
     @Provides
     fun provideArtistDao(dataBaseInstance: GetDataBaseInstance):ArtistDao{
-        return dataBaseInstance.artistsDao
+        return dataBaseInstance.artistsDao()
     }
 
     @Singleton
     @Provides
     fun provideTvShowsDao(dataBaseInstance: GetDataBaseInstance):TvShowsDao{
-        return dataBaseInstance.tvShowsDao
+        return dataBaseInstance.tvShowsDao()
     }
 
 

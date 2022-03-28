@@ -9,10 +9,10 @@ import com.subhambnikash.movieappcleanmvvmarchitecture.data.model.movies.Movie
 import com.subhambnikash.movieappcleanmvvmarchitecture.data.model.tvshows.TvShow
 
 
-@Database(entities = [Artist::class,Movie::class,TvShow::class], exportSchema = true, version = 1)
+@Database(entities = [Artist::class,Movie::class,TvShow::class], exportSchema = false, version = 1)
 abstract class GetDataBaseInstance:RoomDatabase() {
-    abstract val tvShowsDao: TvShowsDao
-    abstract val moviesDao: MoviesDao
-    abstract val artistsDao: ArtistDao
+    abstract fun tvShowsDao(): TvShowsDao
+    abstract fun moviesDao(): MoviesDao
+    abstract fun artistsDao(): ArtistDao
 
 }

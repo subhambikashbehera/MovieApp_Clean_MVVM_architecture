@@ -11,9 +11,6 @@ class TvShowActivityViewModelFactory(
     private val updateTvShowUseCases: UpdateTvShowUseCases
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-      return when(modelClass){
-          TvShowActivityViewModel::class.java->TvShowActivityViewModel(getTvShowUseCases,updateTvShowUseCases)
-          else->throw  IllegalArgumentException("error")
-      } as T
+           return TvShowActivityViewModel(getTvShowUseCases,updateTvShowUseCases) as T
     }
 }
