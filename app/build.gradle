@@ -18,6 +18,8 @@ android {
         buildConfigField "String","API_KEY","\"b6df586ab67d5abf4c9f4f3a1e0e352c\""
         buildConfigField "String","BASE_URL_IMDB","\"https://api.themoviedb.org/3/\""
 
+        buildConfigField "String","BASE_URL_IMDB","\"https://api.themoviedb.org/3/\""
+
     }
 
     buildTypes {
